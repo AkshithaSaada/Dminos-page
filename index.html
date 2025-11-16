@@ -25,13 +25,7 @@
         padding-right:20px;
         font-weight:bold;
     }
-    .menu1,.menu2{
-        display: flex;
-        flex-direction: row;
-        width:1200px;
-        
-    }
-    .menu1 div{
+    .menu1{
        display:grid;
         grid-template-columns:repeat(3,1fr);
         grid-template-rows:repeat(3,100px);
@@ -43,7 +37,7 @@
     .item1{
         display:grid;
         grid-template-columns:repeat(3,1fr);
-        grid-template-rows:repeat(3,100px);
+        grid-template-rows:repeat(3,1000px);
         padding:50px;
         border:1px solid;
         gap:10px;
@@ -89,7 +83,7 @@
     </header>
     <main>
         <h2>Order</h2>
-        <section class="item1">
+        <div class="item1">
         <div>
             <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-12-22/Screenshot%202022-12-22%20at%208.37.04%20AM_353938.png" alt="">
             <h3>VEG PIZZA</h3>
@@ -126,10 +120,10 @@
             <p>Indulge into mouth-watering taste of pizza mania range ,perfect answer to your food cravings</p>
             <button>VIEW ALL</button>
         </div>
-        </section>
+        </div>
     </main>
     <section class="menus">
-        <section class="menu1">
+        <div class="menu1">
         <div>
             <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-12-21/Screenshot%202022-12-21%20at%203.06.17%20PM_590391.png" alt="">
             <h3>OUR MENU</h3>
@@ -172,7 +166,7 @@
             </p>
              <h3 class="name">DISCOVER PIZZA</h3>
         </div>
-        </section>
+        </div>
     </section>
     <footer>
         <div> <img src="https://coding-platform.s3.amazonaws.com/dev/lms/tickets/48f2fc25-38f4-4d25-a878-78f15988b371/kXSpyg2iCHrCEljP.png" alt=""> </div>
