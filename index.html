@@ -17,7 +17,13 @@
     }
     .item1 div{
         background-color:red;
+        justify-content:center;
     }
+    .menu1 div
+    {
+         justify-content:center;
+    }
+        
     nav{
         display: flex;
         flex-direction: row;
@@ -42,6 +48,11 @@
         grid-template-rows:repeat(2,300px);
         padding:10px;
         gap:70px;
+    }
+    .item1 button
+    {
+        backround-color:white;
+        color:red;
     }
     .menu1 img{
         width:100px;
@@ -69,8 +80,24 @@
         color:red;
     }
     .phn{
+        width:400px;
+        height:300px;}
+    .images img{
         width:100px;
-        height:200px;}
+        height:50px;
+    }
+    .foot
+    {
+        display:grid;
+        grid-template-coloumns:1fr 1fr;
+        gap:50px;
+        padding:10px;
+    }
+    .images{
+        display:flex;
+        flex-direction:row;
+        gap:10px;
+    }
 </style>
 <body>
     <header>
@@ -91,7 +118,7 @@
             <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-12-22/Screenshot%202022-12-22%20at%208.37.04%20AM_353938.png" alt="">
             <h3>VEG PIZZA</h3>
             <p>A delight lovers! Choose from our wide range of delicious vegetarion pizzas ,its softer and tastier</p>
-            <button>VIEW ALL</button>
+            <button >VIEW ALL</button>
         </div>
         <div>
             <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-12-22/Screenshot%202022-12-22%20at%208.37.04%20AM_353938.png" alt="">
@@ -186,12 +213,14 @@
         </div>
     </section>
     <footer>
-        <div> <img src="https://coding-platform.s3.amazonaws.com/dev/lms/tickets/48f2fc25-38f4-4d25-a878-78f15988b371/kXSpyg2iCHrCEljP.png" alt="" class="phn"> </div>
+        <div class="foot">
+        <div > <img src="https://coding-platform.s3.amazonaws.com/dev/lms/tickets/48f2fc25-38f4-4d25-a878-78f15988b371/kXSpyg2iCHrCEljP.png" alt="" class="phn"> </div>
         <div>
-            <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-12-21/Screenshot%202022-12-21%20at%202.47.09%20PM_558991.png" alt="">
-             <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-12-21/Screenshot%202022-12-21%20at%202.47.43%20PM_652243.png" alt="">
-            <h1>Ulock Exclusive Offers</h1>
+             <h1>Ulock Exclusive Offers</h1>
         <p>For lightning fast ordering experience download the Domino's app</p>
+           <div class="images"> <div><img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-12-21/Screenshot%202022-12-21%20at%202.47.09%20PM_558991.png" alt="" class="play"></div>
+             <div><img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-12-21/Screenshot%202022-12-21%20at%202.47.43%20PM_652243.png" alt="" class="apple"></div></div>
+        </div>
         </div>
    </footer>
 </body>
